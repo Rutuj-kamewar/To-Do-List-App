@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO List App</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <h2> <i class="fa-solid fa-list-ol"></i> TO-DO List </h2>
+            <div class="row">
+                <input type="text" name="input area" id="input-area"
+                 placeholder="Add your Text">
+                 <button onclick="addTask()" class="add">Add</button>
+            </div>
+            <ul class="list-container">
+                <!-- <li></li>
+                <li></li> -->
+            </ul>
+        </div>
+        <div class="main completed">
+            <h2><i class="fa-regular fa-square-check"></i> Completed tasks </h2>
+            
+            <ul class="completed-task">
+                <!-- <li>what</li>
+                <li></li> -->
+            </ul>
+        </div>
+
+        <div class="btn">
+            <button class="button-34" role="button">Clear</button>
+        </div>
+
+
+
+    </div>
+    
+    <script src="https://kit.fontawesome.com/8c167018fb.js" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
